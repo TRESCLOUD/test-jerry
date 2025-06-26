@@ -9,6 +9,7 @@
                 <button name="action_show_delivery_details"
                     class="oe_stat_button"
                     icon="fa-file-text"
+                    groups="trescloud_test_jerry.group_view_detail_delivery"
                     type="object">
                     <field name="account_picking_count" widget="statinfo" string="Detalle de la entrega"/>
                 </button>

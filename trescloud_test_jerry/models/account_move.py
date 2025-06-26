@@ -17,7 +17,7 @@ class AccountMove(models.Model):
             'res_model': 'stock.picking',
             'views': [
                 (self.env.ref('trescloud_test_jerry.stock_picking_inherit_tree_view').id, 'tree'),
-                (self.env.ref('stock_picking_inherit_view'), 'form')],
+                (self.env.ref('trescloud_test_jerry.stock_picking_inherit_view').id, 'form')],
             'domain': [('id', 'in', pickings.ids)],
         }
 

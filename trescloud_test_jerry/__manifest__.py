@@ -26,6 +26,7 @@
 		# views
         'views/account_move_views.xml',
         'views/stock_picking_delivery_views.xml',
+        'views/menu_views.xml',
 		# wizards
 	],
 	'application': False,
