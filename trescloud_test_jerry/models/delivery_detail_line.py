@@ -5,7 +5,7 @@ from odoo import models, fields, api
 
 
 class DeliveryDetailLine(models.Model):
-    _name = 'delivery.detail.line'
+    _inherit = 'delivery.detail.line'
 
 
     delivery_detail_id = fields.Many2one(

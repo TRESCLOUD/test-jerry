@@ -6,8 +6,7 @@
 	'version': '1.0',
 	'category': '',
 	'description': '''
- 	Personalizaciones 
-  		
+ 		Personalizaciones 
 	Autores:
 	- Jerry Rivera
 	''',
@@ -17,12 +16,16 @@
 	'summary': '',
 	'license': 'OEEL-1',
 	'depends': [
-
+        'l10n_ec_edi',
+        'stock',
+        'sale_management'
 	],
 	'data': [
 		# security
 		# data
 		# views
+        'views/account_move_views.xml',
+        'views/stock_picking_delivery_views.xml',
 		# wizards
 	],
 	'application': False,
